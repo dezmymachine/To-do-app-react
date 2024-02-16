@@ -1,13 +1,21 @@
 import styles from "./TodoList.module.css";
 
 function TaskItems() {
+  // let todos;
+  // function TodoLists() {
+  //   const [todos, setTodos] = React.useState([]);
+  // }
+  function getTodos() {
+    //Get all todos from localStorage and store
+    // todos = JSON.parse(localStorage.getItem("TODO_KEY")) || [];
+    // todos.push(todo);
+    // setTodos(todos);
+  }
+  // React.useEffect = (getTodos,[]);
   return (
     <div className={styles.tasklist}>
       <ul>
         <li className={styles.listItem}>Happy</li>
-        <li className={styles.listItem}>Meet Client at hotel d'Afrique</li>
-        <li className={styles.listItem}>Play with Super stars</li>
-        <li className={styles.listItem}>Night out with friends</li>
       </ul>
     </div>
   );
