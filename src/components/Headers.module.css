@@ -1,0 +1,23 @@
+.container{
+    background: linear-gradient(4deg, rgb(28, 40, 61) 0%, rgba(139, 139, 139, 0.544) 50%), url(../assets/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    padding-top: 2.1rem;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    left:16%;
+    letter-spacing: 5px;
+}
